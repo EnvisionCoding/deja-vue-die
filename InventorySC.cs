@@ -22,18 +22,6 @@ public class InventorySC : MonoBehaviour {
     public List<ItemSC> itemCollection = new List<ItemSC>();
     public List<GameObject> slotCollection = new List<GameObject>();
 
-    
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void AddItem(ItemSC item)
     {
         if (item.name == "Drawer Key")
